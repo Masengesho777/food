@@ -19,7 +19,7 @@
 .navigation a {
     padding: 20px;
     text-decoration: none;
-    color: white;
+    color:black;
     font-size: 28px;
 }
 
@@ -36,11 +36,24 @@
     margin-top: 10px;
     margin-left: 20px;
     border-radius: 150px;
+    padding: 30px;
+    border-radius: 150px;
+transition: all 0.3s;
+
 }
+.photo img:hover{
+    transform: scale(1);rotate: (259deg);
+}
+@keyframes{
+    0%{opacit
+
+    }
+}
+
 
 .par {
     margin-left: 350px;
-    margin-top: 30px;
+   
     color: white;
 }
 
@@ -69,7 +82,7 @@ h2:hover {
 width: 250px;
 height: 70px;
 transform: scale();
-}
+
 
 h2:hover {
     transform: scale(1.5);
@@ -85,7 +98,7 @@ h2:hover {
 }
 
 body {
-    background:;
+    background:url();
     opacity: 0.8;
 }
 
@@ -197,6 +210,9 @@ h1:hover {
 main {
     background: url(/image/fhp.jpg)
 }
+main1{
+    display: flex;
+}
 
 .navigation {
     float: right;
@@ -234,3 +250,9 @@ a:hover {
     margin-left: 15px;
     padding-top: 10px;
 }
+footer{
+    background-color: #000;
+}
+
+   
+   
